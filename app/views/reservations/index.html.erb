@@ -1,6 +1,6 @@
-<h1> All Reservations </h1>
+<h1 class = "page-title"> All Reservations </h1>
 
-<ul>
+<ul class = "all-reservations">
 <% @reservations.each do |reservation| %>
 <li>Name: <%= reservation.user.name %></li>
 <li>Phone number: <%= reservation.user.phone_number %></li>
