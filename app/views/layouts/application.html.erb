@@ -22,7 +22,7 @@
         Signed in as <%= current_user.email %>. <a class = "list-item"><%= link_to "Log out", sessions_path, :method => :delete %></a>
       <% else %>
       <div class="nav">
-        <a class = "list-item"><%= link_to "Log in", new_sessions_path %></a> or <a class = "list-item"><%= link_to "Sign up", new_users_path %></a>
+        <a class = "list-item"><%= link_to "Log in", new_sessions_path %></a>  <a class = "list-item"><%= link_to "Sign up", new_users_path %></a>
       <% end %>
       </div>
     </ul>

@@ -45,6 +45,8 @@ body {
    color: white;
    display: grid;
    grid-template-columns: 80% 1fr;
+   border-radius: 50px;
+
 }
 .site-title {
  text-align: left;
@@ -53,6 +55,7 @@ body {
 a {
   text-decoration: none;
   color: white;
+  padding-left: 20px;
 
   .list-item {
    text-align: right;
@@ -85,7 +88,7 @@ a:hover {
        width: 1200px;
        margin: 0 auto;
        height: 400px;
-       background-color: rgba(0, 0, 0, 0.86) ;
+       background-color: rgba(175, 24, 24, 0.82);
        color: white;
        // border-bottom: grove;
        // border-top: grove;
