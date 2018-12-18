@@ -47,7 +47,7 @@ body {
    right: 0;
    width: 100%;
    z-index: 100;
-   background-color: #c64343;
+   background-color: rgba(0, 0, 0, 0.86);
    color: white;
    display: grid
  }
@@ -93,11 +93,13 @@ body {
      width: 900px;
      margin: 0 auto;
      height: 400px;
-     background-color: lightgrey ;
-     // color: black;
+     background-color: rgba(0, 0, 0, 0.86) ;
+     color: white;
      // border-bottom: grove;
      // border-top: grove;
      border-radius: 10px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
 
 
      img {
