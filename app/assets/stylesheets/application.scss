@@ -52,29 +52,13 @@ body {
    color: white;
    display: grid;
    grid-template-columns: 80% 1fr;
-
-
-
-
- }
+}
 
  .site-title {
  text-align: left;
  font-size: 2em;
  }
- // div.nav::after,
- // div.nav::before {
- //   // text-align: right;
- //   list-style-type: none;
- //   text-align: left;
- // }
 
- // .list-item {
- //  text-align: right;
- //  text-decoration: none;
- //  color: white;
- // }
- //
  a {
   text-decoration: none;
   color: white;
@@ -91,6 +75,9 @@ body {
    text-align: center;
  }
 
+.page-title {
+  margin-top: 100px;
+}
  h3 {
    color: black;
  }
@@ -98,7 +85,7 @@ body {
 
 
  .tile-container {
-   margin-top: 125px;
+   margin-top: 50px;
    display: grid;
    grid-gap: 5px;
    grid-template-columns: 1fr;
