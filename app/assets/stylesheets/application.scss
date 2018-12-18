@@ -122,6 +122,17 @@ body {
 
      }
 }
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.86);
+  color: white;
+
+
+}
 input[type=submit] {
   background-color: #c64343;
   border: none;
